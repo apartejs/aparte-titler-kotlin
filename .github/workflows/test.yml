@@ -13,6 +13,10 @@ jobs:
       - uses: gradle/actions/setup-gradle@v6
       - name: Tests
         run: ./gradlew test
+      - name: An app on Kotlin 2.0 compiles against it
+        run: |
+          ./gradlew publishToMavenLocal
+          ./gradlew -p compat-test run
 
   android:
     runs-on: ubuntu-latest

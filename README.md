@@ -17,7 +17,7 @@ Built for chat apps, note-taking and voice-memo apps, and on-device LLM clients 
 - **On-device and private** — the text never leaves the phone.
 - **Works offline**, with no server and no key to manage.
 - **Small** — 133 KB for 17 languages, or 41 KB for one.
-- **Fast** — a few milliseconds per title on one CPU core, no GPU, no NNAPI, no TensorFlow Lite.
+- **Fast** — about 8 ms per title on one desktop CPU core, no GPU, no NNAPI, no TensorFlow Lite.
 - **Safe from prompt injection by construction** — it only ever copies words from the message, so an instruction hidden in a message can at worst produce a poor title, never be followed.
 - **No dependency** but the Kotlin standard library. Usable from Java too.
 
@@ -44,7 +44,7 @@ Two artifacts:
 | `dev.apartejs:titler-latin` | the runtime and the 17-language model (133 KB), ready to use |
 | `dev.apartejs:titler` | the runtime alone — bring any model file from [Hugging Face](https://huggingface.co/apartejs/aparte-titler) |
 
-Android 5.0 (API 21) and later, and any JVM 8 or later. No ProGuard or R8 rule needed.
+Android 5.0 (API 21) and later, any JVM 8 or later, and Kotlin 2.0 or later (or Java). No ProGuard or R8 rule needed.
 
 ## Use
 
