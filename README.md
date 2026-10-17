@@ -1,5 +1,7 @@
 # aparte-titler for Kotlin and Android
 
+[![Maven Central](https://img.shields.io/maven-metadata/v?metadataUrl=https%3A%2F%2Frepo1.maven.org%2Fmaven2%2Fdev%2Fapartejs%2Ftitler-latin%2Fmaven-metadata.xml&label=Maven%20Central)](https://central.sonatype.com/artifact/dev.apartejs/titler-latin) [![test](https://github.com/apartejs/aparte-titler-kotlin/actions/workflows/test.yml/badge.svg)](https://github.com/apartejs/aparte-titler-kotlin/actions/workflows/test.yml)
+
 **Name a chat conversation on the device — no API call, no network, 133 KB.**
 
 Give it the first message of a conversation, get back a short title made of words from that message:
